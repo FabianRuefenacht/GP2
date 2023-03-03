@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7a29b00cddaf02035fa3004924096bcc {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7a29b00cddaf02035fa3004924096bcc" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7a29b00cddaf02035fa3004924096bcc = L.map(
+                "map_7a29b00cddaf02035fa3004924096bcc",
+                {
+                    center: [47.5346, 7.641994],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 18,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_49dbeafd1245122d3724c615faca0d85 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_7a29b00cddaf02035fa3004924096bcc);
+        
+    
+            var marker_e96ad7eda1a80dfd1a89746c74be105d = L.marker(
+                [47.534832443156034, 7.641978798605998],
+                {}
+            ).addTo(map_7a29b00cddaf02035fa3004924096bcc);
+        
+    
+        var popup_7350a48d57e328a080d67b2aae522c5d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6f7b54cffccc106d1d3523224b2a906 = $(`<div id="html_e6f7b54cffccc106d1d3523224b2a906" style="width: 100.0%; height: 100.0%;">Fachhochschule Nordwestschweiz FHNW<br><b>Hier ist die FHNW</b></div>`)[0];
+                popup_7350a48d57e328a080d67b2aae522c5d.setContent(html_e6f7b54cffccc106d1d3523224b2a906);
+            
+        
+
+        marker_e96ad7eda1a80dfd1a89746c74be105d.bindPopup(popup_7350a48d57e328a080d67b2aae522c5d)
+        ;
+
+        
+    
+    
+            var marker_b619c65524d2a90b82f91ae8b9846cd3 = L.marker(
+                [47.53369088502312, 7.647735469448107],
+                {}
+            ).addTo(map_7a29b00cddaf02035fa3004924096bcc);
+        
+    
+        var popup_9bca240d993f71430de2de04a400c557 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_100994d1e5f8ef794abe769250e60039 = $(`<div id="html_100994d1e5f8ef794abe769250e60039" style="width: 100.0%; height: 100.0%;">Muttenz Bahnhof</div>`)[0];
+                popup_9bca240d993f71430de2de04a400c557.setContent(html_100994d1e5f8ef794abe769250e60039);
+            
+        
+
+        marker_b619c65524d2a90b82f91ae8b9846cd3.bindPopup(popup_9bca240d993f71430de2de04a400c557)
+        ;
+
+        
+    
+    
+            var marker_2776695fa4710f0fd7df72b06d49dd23 = L.marker(
+                [47.52740982278591, 7.6480757998815925],
+                {}
+            ).addTo(map_7a29b00cddaf02035fa3004924096bcc);
+        
+    
+        var popup_b0cf743a9e4fe92e6f277c5be6d32ffb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f9e45aabf70bb017d0ab647ca450984 = $(`<div id="html_6f9e45aabf70bb017d0ab647ca450984" style="width: 100.0%; height: 100.0%;">Interdiscount</div>`)[0];
+                popup_b0cf743a9e4fe92e6f277c5be6d32ffb.setContent(html_6f9e45aabf70bb017d0ab647ca450984);
+            
+        
+
+        marker_2776695fa4710f0fd7df72b06d49dd23.bindPopup(popup_b0cf743a9e4fe92e6f277c5be6d32ffb)
+        ;
+
+        
+    
+</script>
+</html>
