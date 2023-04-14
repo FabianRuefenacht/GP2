@@ -1,6 +1,16 @@
 
 Lektion2/geodata/VERSION
 *.zip
+*.png
+*.jpg
+*.jpeg
+*.tif
+*.xml
+*.prj
+*.vrt
+*.ovr
+*.tfw
+*.hdr
 Lektion1/geodata/packages/natural_earth_vector.gpkg
 Lektion2/geodata/CHANGELOG
 Lektion2/geodata/packages/natural_earth_vector.gpkg
