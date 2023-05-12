@@ -11,6 +11,9 @@ Lektion2/geodata/VERSION
 *.ovr
 *.tfw
 *.hdr
+*.shp
+*.shx
+Lektion7/data/*.*
 Lektion1/geodata/packages/natural_earth_vector.gpkg
 Lektion2/geodata/CHANGELOG
 Lektion2/geodata/packages/natural_earth_vector.gpkg
