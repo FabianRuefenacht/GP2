@@ -1,0 +1,41 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kernkraftwerk Beznau",
+        "operator": "Axpo AG",
+        "capacity": "365 MW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.228750, 47.559167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kernkraftwerk Gösgen",
+        "operator": "Kernkraftwerk Gösgen-Däniken AG",
+        "capacity": "970 MW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.988056, 47.371667]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kernkraftwerk Leibstadt",
+        "operator": "Kernkraftwerk Leibstadt AG",
+        "capacity": "1160 MW"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.220000, 47.569167]
+      }
+    }
+  ]
+}
