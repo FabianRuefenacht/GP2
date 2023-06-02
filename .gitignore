@@ -21,3 +21,5 @@ Lektion2/geodata/README.md
 Lektion4/uebung/everest_contours.dbf
 Test_GO/GOcontour.dbf
 Test_GO/TestGO.ipynb
+*.dbf
+*.cpg
